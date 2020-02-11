@@ -13,6 +13,7 @@ ${input_password}                       xpath=//*[@id="exampleInputPassword1"]
 ${btn_login}                            xpath=//*[@id="validate-form"]/input
 
 # Menu
+${home_menu}                            xpath=//*[@id="layout-static"]/div[2]/div/div/div[1]/a
 ${card_menu}                            xpath=//*[@id="layout-static"]/div[2]/div/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/a/div/div/div[2]
 
 # project folder
