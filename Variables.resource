@@ -1,5 +1,4 @@
 *** Variables ***
 
 # Web site
-
-${url}                               
+${url}          https://se.buu.ac.th/AppDOSI/index.php/gear                    
