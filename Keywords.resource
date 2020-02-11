@@ -13,8 +13,11 @@ Resource        Variables.resource
     Maximize Browser Window
     sleep                       1s
 
-เข้าสู่ระบบ ชื่อผู้ใช้ ${username} และรหัสผ่าน ${password}
-    Input Text
+เข้าสู่ระบบด้วยชื่อผู้ใช้ ${username} และรหัสผ่าน ${password}
+    Input Text      ${input_username}               ${username}
+    sleep  1s 
+    Input Text      ${input_password}               ${password} 
+    sleep  1s  
 
 
 ปิดเบราว์เซอร์
