@@ -1,0 +1,5 @@
+*** Variables ***
+
+# Web site
+
+${url}                               
